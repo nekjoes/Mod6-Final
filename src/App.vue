@@ -1,11 +1,29 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+ <div>
+    <app-menu titulo="My App"></app-menu>
+    <router-view />
   </div>
-  <router-view/>
-</template>
 
+</template>
+<script>
+import AppMenu from '@/components/AppMenu.vue';
+export default {
+  name: 'app',
+  data() {
+    return {
+    }
+  },
+  methods: {
+  },
+  computed: {
+  },
+  mounted() {
+  },
+  components: {
+    AppMenu
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

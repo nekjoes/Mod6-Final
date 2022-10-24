@@ -1,0 +1,56 @@
+{
+  "Departamentos": [
+    {
+      "Area": "Gerencia",
+      "Encargado": "Jose Linares",
+      "Funcionarios": 4,
+      "id": 1
+    },
+    {
+      "Area": "Finanzas",
+      "Encargado": "Hector",
+      "Funcionarios": "5",
+      "id": 2
+    },
+    {
+      "Area": "Administracion",
+      "Encargado": "Johan Azero Soza",
+      "Funcionarios": "3",
+      "id": 3
+    }
+  ],
+  "Activos": [
+    {
+      "Tipo": "Computadora",
+      "Marca": "HP",
+      "Modelo": "Pavilio 360",
+      "Estado": "Nuevo",
+      "AreaId": "Gerencia",
+      "id": 1
+    },
+    {
+      "Tipo": "Impresora",
+      "Marca": "pepito",
+      "Modelo": "12345",
+      "Estado": "Usado",
+      "AreaId": "Gerencia",
+      "id": 2
+    },
+    {
+      "Tipo": "Computadora",
+      "Marca": "Sony",
+      "Modelo": "123455677",
+      "Estado": "Nuevo",
+      "AreaId": "Gerencia",
+      "id": 3
+    },
+    {
+      "Tipo": "Computadora",
+      "Marca": "LG",
+      "Modelo": "FinanzLG",
+      "Estado": "Nuevo",
+      "AreaId": "Finanzas",
+      "id": 5
+    }
+  ]
+}
